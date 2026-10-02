@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-02T15:56:10 IST" name="Login Suite" finished-at="2026-10-02T15:56:41 IST" duration-ms="31272">
+    <groups>
+      <group name="smoke">
+        <method signature="LoginTests.TC001_verify_login_with_valid_credentials()[pri:0, instance:tests.LoginTests@2af004b]" name="TC001_verify_login_with_valid_credentials" class="tests.LoginTests"/>
+        <method signature="LoginTests.TC002_verify_login_with_invalid_username()[pri:1, instance:tests.LoginTests@2af004b]" name="TC002_verify_login_with_invalid_username" class="tests.LoginTests"/>
+        <method signature="LoginTests.TC003_verify_login_with_invalid_password()[pri:2, instance:tests.LoginTests@2af004b]" name="TC003_verify_login_with_invalid_password" class="tests.LoginTests"/>
+        <method signature="LoginTests.TC004_verify_login_with_invalid_password()[pri:3, instance:tests.LoginTests@2af004b]" name="TC004_verify_login_with_invalid_password" class="tests.LoginTests"/>
+        <method signature="LoginTests.TC005_verify_login_with_blank_username()[pri:4, instance:tests.LoginTests@2af004b]" name="TC005_verify_login_with_blank_username" class="tests.LoginTests"/>
+        <method signature="LoginTests.TC006_verify_login_with_blank_password()[pri:5, instance:tests.LoginTests@2af004b]" name="TC006_verify_login_with_blank_password" class="tests.LoginTests"/>
+        <method signature="LoginTests.TC007_verify_login_with_both_blank()[pri:6, instance:tests.LoginTests@2af004b]" name="TC007_verify_login_with_both_blank" class="tests.LoginTests"/>
+        <method signature="LoginTests.TC008_verify_forgot_Password_link()[pri:7, instance:tests.LoginTests@2af004b]" name="TC008_verify_forgot_Password_link" class="tests.LoginTests"/>
+        <method signature="LoginTests.TC009_verify_password_is_mask()[pri:8, instance:tests.LoginTests@2af004b]" name="TC009_verify_password_is_mask" class="tests.LoginTests"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-10-02T15:56:10 IST" name="Login Test" finished-at="2026-10-02T15:56:41 IST" duration-ms="31272">
+      <class name="tests.LoginTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:10 IST" name="setup" finished-at="2026-10-02T15:56:15 IST" duration-ms="4128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:15 IST" name="pageSetup" finished-at="2026-10-02T15:56:15 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="TC001_verify_login_with_valid_credentials()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:15 IST" name="TC001_verify_login_with_valid_credentials" description="verify login with valid credentials" finished-at="2026-10-02T15:56:18 IST" duration-ms="3378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_verify_login_with_valid_credentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:18 IST" name="tearDown" finished-at="2026-10-02T15:56:18 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:18 IST" name="setup" finished-at="2026-10-02T15:56:20 IST" duration-ms="2027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC002_verify_login_with_invalid_username()[pri:1, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:20 IST" name="TC002_verify_login_with_invalid_username" description="verify login with Invalid username" finished-at="2026-10-02T15:56:22 IST" duration-ms="1347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_verify_login_with_invalid_username -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:20 IST" name="pageSetup" finished-at="2026-10-02T15:56:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:22 IST" name="tearDown" finished-at="2026-10-02T15:56:22 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:22 IST" name="setup" finished-at="2026-10-02T15:56:24 IST" duration-ms="1760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:24 IST" name="pageSetup" finished-at="2026-10-02T15:56:24 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="TC003_verify_login_with_invalid_password()[pri:2, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:24 IST" name="TC003_verify_login_with_invalid_password" description="verify login with Invalid password" finished-at="2026-10-02T15:56:25 IST" duration-ms="1775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003_verify_login_with_invalid_password -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:25 IST" name="tearDown" finished-at="2026-10-02T15:56:26 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:26 IST" name="setup" finished-at="2026-10-02T15:56:27 IST" duration-ms="1765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:27 IST" name="pageSetup" finished-at="2026-10-02T15:56:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="TC004_verify_login_with_invalid_password()[pri:3, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:27 IST" name="TC004_verify_login_with_invalid_password" description="verify login with Invalid credentials" finished-at="2026-10-02T15:56:29 IST" duration-ms="1376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC004_verify_login_with_invalid_password -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:29 IST" name="tearDown" finished-at="2026-10-02T15:56:29 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:29 IST" name="setup" finished-at="2026-10-02T15:56:31 IST" duration-ms="1751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:31 IST" name="pageSetup" finished-at="2026-10-02T15:56:31 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="TC005_verify_login_with_blank_username()[pri:4, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:31 IST" name="TC005_verify_login_with_blank_username" description="verify login with blank username" finished-at="2026-10-02T15:56:31 IST" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005_verify_login_with_blank_username -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:31 IST" name="tearDown" finished-at="2026-10-02T15:56:32 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:32 IST" name="setup" finished-at="2026-10-02T15:56:33 IST" duration-ms="1645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:33 IST" name="pageSetup" finished-at="2026-10-02T15:56:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="TC006_verify_login_with_blank_password()[pri:5, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:33 IST" name="TC006_verify_login_with_blank_password" description="verify login with blank password" finished-at="2026-10-02T15:56:34 IST" duration-ms="789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC006_verify_login_with_blank_password -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:34 IST" name="tearDown" finished-at="2026-10-02T15:56:34 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:34 IST" name="setup" finished-at="2026-10-02T15:56:36 IST" duration-ms="1723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:36 IST" name="pageSetup" finished-at="2026-10-02T15:56:36 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="TC007_verify_login_with_both_blank()[pri:6, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:36 IST" name="TC007_verify_login_with_both_blank" description="verify login with both blank" finished-at="2026-10-02T15:56:37 IST" duration-ms="796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC007_verify_login_with_both_blank -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:37 IST" name="tearDown" finished-at="2026-10-02T15:56:37 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:37 IST" name="setup" finished-at="2026-10-02T15:56:39 IST" duration-ms="1747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:39 IST" name="pageSetup" finished-at="2026-10-02T15:56:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="TC008_verify_forgot_Password_link()[pri:7, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:39 IST" name="TC008_verify_forgot_Password_link" description="verify forgot password link" finished-at="2026-10-02T15:56:39 IST" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC008_verify_forgot_Password_link -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:39 IST" name="tearDown" finished-at="2026-10-02T15:56:39 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:39 IST" name="setup" finished-at="2026-10-02T15:56:41 IST" duration-ms="1719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:41 IST" name="pageSetup" finished-at="2026-10-02T15:56:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="TC009_verify_password_is_mask()[pri:8, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:41 IST" name="TC009_verify_password_is_mask" description="verify forgot password link" finished-at="2026-10-02T15:56:41 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC009_verify_password_is_mask -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@2af004b]" started-at="2026-10-02T15:56:41 IST" name="tearDown" finished-at="2026-10-02T15:56:41 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTests -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Login Suite -->
+</testng-results>

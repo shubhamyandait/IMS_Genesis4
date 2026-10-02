@@ -1,0 +1,12 @@
+2026-10-02 15:56:15.101 [main] INFO  tests.LoginTests - *******Login Start******
+2026-10-02 15:56:18.343 [main] INFO  tests.LoginTests - ****enter username****
+2026-10-02 15:56:18.343 [main] INFO  tests.LoginTests - ****enter password****
+2026-10-02 15:56:18.461 [main] INFO  tests.LoginTests - ****login successfull****
+2026-10-02 15:59:24.247 [main] INFO  tests.LoginTests - *******Login Start******
+2026-10-02 15:59:26.858 [main] INFO  tests.LoginTests - ****enter username****
+2026-10-02 15:59:26.863 [main] INFO  tests.LoginTests - ****enter password****
+2026-10-02 15:59:26.984 [main] INFO  tests.LoginTests - ****login successfull****
+2026-10-02 16:01:14.390 [main] INFO  tests.LoginTests - *******Login Start******
+2026-10-02 16:01:20.396 [main] INFO  tests.LoginTests - ****enter username****
+2026-10-02 16:01:20.396 [main] INFO  tests.LoginTests - ****enter password****
+2026-10-02 16:01:20.540 [main] INFO  tests.LoginTests - ****login successfull****

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login Test(failed)">
+    <classes>
+      <class name="tests.LoginTests">
+        <methods>
+          <include name="TC008_verify_forgot_Password_link"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="TC006_verify_login_with_blank_password"/>
+          <include name="TC002_verify_login_with_invalid_username"/>
+          <include name="TC009_verify_password_is_mask"/>
+          <include name="TC005_verify_login_with_blank_username"/>
+          <include name="TC003_verify_login_with_invalid_password"/>
+          <include name="TC004_verify_login_with_invalid_password"/>
+          <include name="TC007_verify_login_with_both_blank"/>
+          <include name="TC001_verify_login_with_valid_credentials"/>
+        </methods>
+      </class> <!-- tests.LoginTests -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [Login Suite] -->
